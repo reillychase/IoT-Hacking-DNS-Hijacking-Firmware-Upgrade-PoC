@@ -1,4 +1,4 @@
-# IoT-Hacking-DNS-Hijacking-Firmware-Upgrade-PoC
+# CVE-2018-12257 IoT-Hacking-DNS-Hijacking-Firmware-Upgrade-PoC
 A PoC for upgrading firmware via DNS hijacking on a Momentum IP camera
 
 It is possible to upgrade the firmware on Momentum IP camera by changing /etc/resolv.conf to the attacker's DNS server, then hosting this  https-server.py page with firmware upgrade instructions.
